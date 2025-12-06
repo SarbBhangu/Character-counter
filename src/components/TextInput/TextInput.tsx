@@ -1,4 +1,3 @@
-import React from "react";
 import type { TextInputProps } from "../../types";
 
 function TextInput(props: TextInputProps) {

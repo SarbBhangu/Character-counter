@@ -1,5 +1,3 @@
-
-import React from "react";
 import TextInput from "./components/TextInput/TextInput";
 
 
