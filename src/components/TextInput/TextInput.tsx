@@ -6,11 +6,17 @@ function TextInput(props: TextInputProps) {
   const placeholder = props.placeholder ?? "Start typing...";
   const initialValue = props.initialValue ?? "";
 
-  return (
-    <div>
-      {/* we'll add the textarea next */}
-    </div>
-  );
+return (
+  <div>
+    <input
+      type="text"
+      placeholder={placeholder}
+      defaultValue={initialValue}
+      onChange={(e) => onTextChange(e.target.value)}
+    />
+  </div>
+); 
 }
+
 
 export default TextInput;
